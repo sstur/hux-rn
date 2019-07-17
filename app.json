@@ -14,8 +14,8 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#f7444e"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,6 +23,12 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_transparent.png",
+        "backgroundColor": "#f7444e"
+      }
+    },
     "ios": {
       "supportsTablet": true
     }
